@@ -1,0 +1,21 @@
+{
+	"pluginSearchDirs": ["."],
+	"overrides": [
+		{
+			"files": "*.svelte",
+			"options": {
+				"parser": "svelte"
+			}
+		}
+	],
+	"tabWidth": 2,
+	"semi": false,
+	"singleQuote": false,
+	"trailingComma": "es5",
+	"bracketSameLine": true,
+	"htmlWhitespaceSensitivity": "ignore",
+	"printWidth": 500,
+	"wrapAttributes": true,
+	"proseWrap": "preserve",
+	"plugins": []
+}
