@@ -1,31 +1,9 @@
 <script lang="ts">
-    import type { PageData } from './$types';
     import Card from "$lib/components/Card.svelte";
-    
-    export let data: PageData;
-    
-    let articles:any[] = [
-        {
-		title: "Crafting a design sysytem for a multiplaetary future",
-		date: "September 5, 2023",
-		link: "https://github.com/",
-		description: "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
-	},
-    {
-		title: "Crafting a design sysytem for a multiplaetary future",
-		date: "September 5, 2023",
-		link: "https://github.com/",
-		description: "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
-	},
-    {
-		title: "Crafting a design sysytem for a multiplaetary future",
-		date: "September 5, 2023",
-		link: "https://github.com/",
-		description: "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
-	}
-    ]
-    
+    import {articles} from './data' 
 </script>
+
+
 <svelte:head>
     <title>Articles - Josh Horsfall</title>
         <meta
