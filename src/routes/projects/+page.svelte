@@ -6,33 +6,33 @@
 
     const projects = [
   {
-    name: 'Planetaria',
+    name: 'CloudDocs',
     description:'Creating technology to empower civilians to explore space on their own terms.',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: "",
   },
   {
-    name: 'Animaginary',
-    description:'High performance web animation library, hand-written in optimized WASM.',
+    name: 'aceAppraisal',
+    description:'The application provides a simple and easy-to-use interface that enables managers to set objectives, track employee performance, and provide feedback to employees.',
     link: { href: '#', label: 'github.com' },
-    logo: "",
+    logo: "logos/aceappraisalogo.png",
   },
   {
-    name: 'HelioStream',
+    name: 'Taskapp',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
     link: { href: '#', label: 'github.com' },
     logo:"",
   },
   {
-    name: 'cosmOS',
+    name: 'xPense',
     description:
       'The operating system that powers our Planetaria space shuttles.',
     link: { href: '#', label: 'github.com' },
     logo:"",
   },
   {
-    name: 'OpenShuttle',
+    name: 'caterGo',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
     link: { href: '#', label: 'github.com' },
@@ -58,7 +58,7 @@
           <li class='group relative flex flex-col items-start'>
             <div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
-                  src=''
+                  src={logo}
                   alt=""
                   class="h-8 w-8"
                 />

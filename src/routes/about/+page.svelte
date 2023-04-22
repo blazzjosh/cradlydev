@@ -18,7 +18,7 @@
       <div class="lg:pl-20">
         <div class="max-w-xs px-2.5 lg:max-w-none">
           <img
-            src="portrait.jpg"
+            src="portrait3.png"
             alt=""
             sizes="(min-width: 1024px) 32rem, 20rem"
             class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
@@ -30,32 +30,22 @@
           I'm Josh Horsfall, a full-stack software engineer based in Lagos, Nigeria.
         </h1>
         <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-          <p>
-            I’ve loved making things for as long as I can remember, and
-            wrote my first program when I was 6 years old, just two weeks
-            after my mom brought home the brand new Macintosh LC 550 that I
-            taught myself to type on.
-          </p>
-          <p>
-            The only thing I loved more than computers as a kid was space.
-            When I was 8, I climbed the 40-foot oak tree at the back of our
-            yard while wearing my older sister’s motorcycle helmet, counted
-            down from three, and jumped — hoping the tree was tall enough
-            that with just a bit of momentum I’d be able to get to orbit.
-          </p>
-          <p>
-            I spent the next few summers indoors working on a rocket design,
-            while I recovered from the multiple surgeries it took to fix my
-            badly broken legs. It took nine iterations, but when I was 15 I
-            sent my dad’s Blackberry into orbit and was able to transmit a
-            photo back down to our family computer from space.
-          </p>
-          <p>
-            Today, I’m the founder of Planetaria, where we’re working on
-            civilian space suits and manned shuttle kits you can assemble at
-            home so that the next generation of kids really <em>can</em>{' '}
-            make it to orbit — from the comfort of their own backyards.
-          </p>
+          <p>While my degree is in Chemical Engineering, my journey into software engineering began when I was working as an Engineering Procurement Specialist. I noticed a growing need for IT solutions in my field, and I became interested in exploring this area further.</p>
+
+
+          <p>I started teaching myself programming and was soon hooked. I loved the creative problem-solving aspect of software development and the endless possibilities it presented. I knew that this was the career path I wanted to pursue, so I started learning everything I could about software development.</p>
+          
+        <p>Since then, I've been fortunate enough to work with some amazing clients, developing web applications and software solutions that are both efficient and user-friendly. My background in Chemical Engineering has given me a unique perspective that allows me to approach problems in innovative ways and find creative solutions.</p>
+          
+        <p>When I'm not working, I love spending time with my family. I have a wonderful wife and two amazing children who always keep me on my toes. We enjoy exploring the outdoors and creating new memories together.</p>
+          
+          <p>In my free time, I also have a few hobbies that I enjoy. I'm an avid reader and love delving into new ideas and perspectives. I'm also a fan of video games, which help me unwind and recharge after a long day.</p>
+          
+          <p> Right now, I'm particularly interested in the fields of web development, AI exploration, and data analytics. As a software engineer, I'm always looking for new and innovative ways to create better, more efficient applications that meet the unique needs of my clients. I believe that AI and machine learning have the potential to revolutionize the way we interact with technology, and I'm constantly exploring new tools and techniques to stay at the forefront of these fields.</p>
+          
+        <p>Overall, I'm dedicated to my work and passionate about the power of technology to change the world for the better. I'm excited to see where the future of software development takes me and look forward to continuing to learn and grow in this exciting field.
+          ChatGPT Mar 23 Version. Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts.</p>
+     
         </div>
       </div>
       <div class="lg:pl-20">

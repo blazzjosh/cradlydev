@@ -2,6 +2,7 @@
 	import Card from "$lib/components/Card.svelte";
 	import Icon from "$lib/components/Icon.svelte";
 	import NewsLetterForm from "$lib/components/NewsLetterForm.svelte";
+  import Photos from "$lib/components/Photos.svelte"
 	import Resume from "$lib/components/Resume.svelte";
 	import {articles} from './articles/data'
 </script>
@@ -56,13 +57,15 @@
 </section>
 
 
+<Photos/>
+
+
 
 <section class="mx-auto max-w-2xl lg:max-w-5xl mt-24 md:mt-28 p-4">
     <div class="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
       <div class="flex flex-col gap-16">
 		{#each articles as article}
-
-        <Card {article}/>
+        	<Card {article}/>
 		{/each}
       </div>
       <div class="space-y-10 lg:pl-16 xl:pl-24">
