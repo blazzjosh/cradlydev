@@ -41,6 +41,14 @@
 ]
 </script>
 
+<svelte:head>
+    <title>Projects - Josh Horsfall</title>
+        <meta
+          name="description"
+          content="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
+        />
+</svelte:head>
+
 
 <section class="mx-auto max-w-2xl lg:max-w-5xl p-4 mt-16 sm:mt-32">
     <header class="max-w-2xl">

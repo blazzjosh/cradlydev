@@ -2,7 +2,9 @@
 import { Button } from "flowbite-svelte";
 
 let experiences = [
-    {org_name: "Planetraia", logoUrl: "https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg", start: "2015", end: "Present", role:"CEO"}
+    {org_name: "Adhocweb", logoUrl: "https://www.adhocweb.tech/_app/immutable/assets/test-9a83c3e7.svg", start: "2022", end: "Present", role:"Software Engineer"},
+    {org_name: "Chesroc", logoUrl: "/chesroc.svg", start: "2019", end: "2022", role:"Full-Stack Developer"},
+    {org_name: "Adexfe", logoUrl: "https://adexfe.com/assets/img/logo.png", start: "Apr 2019", end: "Sep 2019", role:"Internship"}
 ]
 </script>
 
@@ -50,9 +52,10 @@ let experiences = [
         </li>
     {/each}
     </ol>
-    <Button href="#" color="dark" class="group mt-6 w-full">
-      Download CV
-      <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" class="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"><path d="M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-      <!-- <ArrowDownIcon class="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" /> -->
+    <Button target="_blank" href="Resume - Josh Horsfall.pdf" color="dark" class="group mt-6 w-full">
+      Resume
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-2 h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+      </svg>
     </Button>
   </div>

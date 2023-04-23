@@ -6,7 +6,8 @@
     {href:"/about", name: "About"},
     {href:"/articles", name: "Articles"},
     {href:"/projects", name: "Projects"},
-    {href:"/uses", name: "Uses"}
+    {href:"/uses", name: "Uses"},
+    {href:"/contact", name: "Contact"}
     ]
     
 </script>
@@ -14,7 +15,7 @@
 
 <Navbar navClass="mx-auto max-w-2xl lg:max-w-5xl p-4 px-2 sm:px-4 py-2.5 w-full bg-white dark:bg-zinc-900" color="dark" let:hidden let:toggle>
   <NavBrand href="/">
-    <Avatar id="avatar-menu" src="" />
+    <Avatar id="avatar-menu" src="portrait3.png" />
   </NavBrand>
   <div class="flex items-center md:order-2">
     <DarkMode/>

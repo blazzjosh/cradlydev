@@ -15,6 +15,14 @@
     ]
 </script>
 
+<svelte:head>
+    <title>Uses - Josh Horsfall</title>
+        <meta
+          name="description"
+          content="Software I use, gadgets I love, and other things I recommend."
+        />
+</svelte:head>
+
 
 <section class="mx-auto max-w-2xl lg:max-w-5xl p-4 mt-16 sm:mt-32">
     <header class="max-w-2xl">

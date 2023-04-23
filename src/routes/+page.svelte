@@ -28,25 +28,25 @@
 			I'm Josh Horsfall, an efficient full-stack software engineer. With over 3 years of experience, I specialize in HTML5, CSS3, JavaScript, Node.JS, React, and databases. Let's collaborate to build something amazing!
 		</p>
 		<div class="mt-6 flex gap-6">
-			<a class="" href="/">
+			<a class="" target="_blank" href="https://twitter.com/cradlydev">
 				<Icon
 					name="twitter"
 					class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300"
 				/>
 			</a>
-			<a class="" href="/">
+			<a class="" target="_blank" href="https://www.instagram.com/josh__hh/">
 				<Icon
 					name="instagram"
 					class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300"
 				/>
 			</a>
-			<a class="" href="/">
+			<a class="" target="_blank" href="https://github.com/blazzjosh">
 				<Icon
 					name="github"
 					class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300"
 				/>
 			</a>
-			<a class="" href="/">
+			<a class="" target="_blank" href="https://www.linkedin.com/in/cradlyjosh/">
 				<Icon
 					name="linkedin"
 					class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300"

@@ -11,7 +11,13 @@
     ]
 </script>
 
-
+<svelte:head>
+    <title>About - Josh Horsfall</title>
+        <meta
+          name="description"
+          content="I'm Josh Horsfall, a full-stack software engineer based in Lagos, Nigeria."
+        />
+</svelte:head>
 
 <div class="mx-auto max-w-2xl lg:max-w-5xl p-4 mt-16 sm:mt-32">
     <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
