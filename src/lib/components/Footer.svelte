@@ -14,7 +14,7 @@
             </div>
             <p class="text-sm text-zinc-400 dark:text-zinc-500">
                 {new Date().getFullYear()}&nbsp |
-                Josh Horsfall  ❤️
+                Josh Horsfall ✌🏾
             </p>
           </div>
         </div>

@@ -5,11 +5,20 @@
     export let data: PageData;
     let arr = [
         { name:"Workstation", list:[
-            { product:"16” MacBook Pro, M1 Max, 64GB RAM (2021)", 
-            description: "I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations."},
+            { product:"15” MacBook Pro, 2.6 GHz 6-Core Intel Core i7, 16GB RAM (2018)", 
+            description: "I was using an Intel-based 15” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations."},
 
-            {product:"Apple Pro Display XDR (Standard Glass)",
-            description: "The only display on the market if you want something HiDPI and bigger than 27”. When you’re working at planetary scale, every pixel you can get counts."
+            {product:"HP VH240A LCD-Backlit 24 Inch Anti-Glare FHD (1920 x 1080) Monitor",
+            description: " This display matches we already have and used to expand the desktop for work. It is reliable and ergonomic. If starting again, there are better options. "
+        }
+        ]},
+
+        { name:"JS Frameworks", list:[
+            { product:"Sveltekit", 
+            description: "I was using an Intel-based 15” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations."},
+
+            {product:"React",
+            description: " This display matches we already have and used to expand the desktop for work. It is reliable and ergonomic. If starting again, there are better options. "
         }
         ]}
     ]

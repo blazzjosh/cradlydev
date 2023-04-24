@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { PageData } from './$types';
-    
+    import { Modal, Video } from 'flowbite-svelte'
     // export let data: PageData;
    
 
@@ -10,12 +10,16 @@
     description:'Creating technology to empower civilians to explore space on their own terms.',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: "/logos/clouddocs.png",
+    src: ""
+
   },
   {
     name: 'aceAppraisal',
     description:'The application provides a simple and easy-to-use interface that enables managers to set objectives, track employee performance, and provide feedback to employees.',
     link: { href: '#', label: 'github.com' },
     logo: "/logos/target.png",
+    src: ""
+
   },
   {
     name: 'Taskapp',
@@ -23,6 +27,8 @@
       'Real-time video streaming library, optimized for interstellar transmission.',
     link: { href: '#', label: 'github.com' },
     logo:"/logos/task.png",
+    src: ""
+
   },
   {
     name: 'xPense',
@@ -30,6 +36,8 @@
       'The operating system that powers our Planetaria space shuttles.',
     link: { href: '#', label: 'github.com' },
     logo:"/logos/expense.png",
+    src: ""
+
   },
   {
     name: 'caterGo',
@@ -37,8 +45,16 @@
       'The schematics for the first rocket I designed that successfully made it to orbit.',
     link: { href: '#', label: 'github.com' },
     logo:"/logos/catergo.png",
+    src: "https://flowbite-svelte.com/videos/flowbite.mp4"
+
   },
 ]
+let open = false
+let vidSrc = ""
+const popupModal = (src:string) => {
+  open = true
+  vidSrc = src
+};
 </script>
 
 <svelte:head>
@@ -48,6 +64,13 @@
           content="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
         />
 </svelte:head>
+
+
+<Modal bind:open size="xl" autoclose>
+  <div class="text-center">
+    <Video  src={vidSrc} autoplay controls trackSrc='flowbite.mp4' />
+  </div>
+</Modal>
 
 
 <section class="mx-auto max-w-2xl lg:max-w-5xl p-4 mt-16 sm:mt-32">
@@ -61,9 +84,10 @@
     </header>
     <div class="mt-16 sm:mt-20">
         <ul class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
-          {#each projects as {name, description, link, logo}}
+          {#each projects as {name, description, link, logo, src}}
          
-          <li class='group relative flex flex-col items-start'>
+          <li on:click={() => popupModal(src)} on:keydown class='group relative flex flex-col items-start'>
+        
             <div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
                   src={logo}
@@ -73,10 +97,10 @@
               </div>
               <h2 class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
                 <div class="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl" />
-      <a href="/">
+      
         <span class="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl" />
         <span class="relative z-10">{name}</span>
-      </a>
+      
               </h2>
               <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                 {description}
@@ -91,7 +115,7 @@
                   </svg>
                 <span class="ml-2">{link.label}</span>
               </p>
-
+            
         </li>
            
          {/each}
