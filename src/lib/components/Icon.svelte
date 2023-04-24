@@ -2,8 +2,8 @@
 	// @ts-nocheck
 
 	export let name = "";
-	export let width = "1rem";
-	export let height = "1rem";
+	export let width = "";
+	export let height = "";
 	export let focusable = false;
 	let icons = [
 		{
