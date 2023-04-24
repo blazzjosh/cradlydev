@@ -9,6 +9,9 @@
 
 CSS Grid is a powerful layout system that allows developers to create complex and responsive designs for the web. While CSS Grid is still relatively new, it has quickly become a popular choice for modern web design. In this blog post, we will explore 5 creative ways to use CSS Grid for modern web design, complete with code snippets.
 
+<img class="rounded-2xl" src="/src/routes/articles/covers/grid.png">
+
+
 ## 1. Grid-Based Navigation
 
 One way to use CSS Grid for modern web design is to create a grid-based navigation system. This approach allows for a more dynamic and interactive user experience. Here is an example code snippet:

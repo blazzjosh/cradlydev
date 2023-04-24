@@ -2,7 +2,7 @@
 import { Button } from "flowbite-svelte";
 
 let experiences = [
-    {org_name: "Adhocweb", logoUrl: "https://www.adhocweb.tech/_app/immutable/assets/test-9a83c3e7.svg", start: "2022", end: "Present", role:"Software Engineer"},
+    {org_name: "Adhocweb", logoUrl: "/logos/adhoc.svg", start: "2022", end: "Present", role:"Software Engineer"},
     {org_name: "Chesroc", logoUrl: "/chesroc.svg", start: "2019", end: "2022", role:"Full-Stack Developer"},
     {org_name: "Adexfe", logoUrl: "https://adexfe.com/assets/img/logo.png", start: "Apr 2019", end: "Sep 2019", role:"Internship"}
 ]

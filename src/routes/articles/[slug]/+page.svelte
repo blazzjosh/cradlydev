@@ -2,7 +2,6 @@
     export let data;
     let previouspath ="/articles";
 
-    console.log("FE",data)
   </script>
   
  

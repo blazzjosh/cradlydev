@@ -9,34 +9,34 @@
     name: 'CloudDocs',
     description:'Creating technology to empower civilians to explore space on their own terms.',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: "",
+    logo: "/logos/clouddocs.png",
   },
   {
     name: 'aceAppraisal',
     description:'The application provides a simple and easy-to-use interface that enables managers to set objectives, track employee performance, and provide feedback to employees.',
     link: { href: '#', label: 'github.com' },
-    logo: "logos/aceappraisalogo.png",
+    logo: "/logos/target.png",
   },
   {
     name: 'Taskapp',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
     link: { href: '#', label: 'github.com' },
-    logo:"",
+    logo:"/logos/task.png",
   },
   {
     name: 'xPense',
     description:
       'The operating system that powers our Planetaria space shuttles.',
     link: { href: '#', label: 'github.com' },
-    logo:"",
+    logo:"/logos/expense.png",
   },
   {
     name: 'caterGo',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
     link: { href: '#', label: 'github.com' },
-    logo:"",
+    logo:"/logos/catergo.png",
   },
 ]
 </script>
@@ -56,7 +56,7 @@
         Things I’ve made trying to put my dent in the universe.
       </h1>
       <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-        I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        I've done many small projects over time, but there are a few that I'm particularly proud of. Some of them are available for anyone to use and modify, so if you find something that catches your eye, you can take a look at the code and even suggest ways to make it better!
       </p>
     </header>
     <div class="mt-16 sm:mt-20">
