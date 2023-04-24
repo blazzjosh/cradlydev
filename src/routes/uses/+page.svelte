@@ -15,10 +15,10 @@
 
         { name:"JS Frameworks", list:[
             { product:"Sveltekit", 
-            description: "I was using an Intel-based 15” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations."},
+            description: "SvelteKit is built on Svelte, a UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser"},
 
             {product:"React",
-            description: " This display matches we already have and used to expand the desktop for work. It is reliable and ergonomic. If starting again, there are better options. "
+            description: "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies."
         }
         ]}
     ]

@@ -7,45 +7,45 @@
     const projects = [
   {
     name: 'CloudDocs',
-    description:'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    description:'Secure file storage and sharing with permission-based access!',
+    link: { href: 'http://adhocweb.tech', label: 'adhocweb.tech' },
     logo: "/logos/clouddocs.png",
-    src: ""
+    src: "/videos/clouddocs.mp4"
 
   },
   {
     name: 'aceAppraisal',
-    description:'The application provides a simple and easy-to-use interface that enables managers to set objectives, track employee performance, and provide feedback to employees.',
-    link: { href: '#', label: 'github.com' },
+    description:'Designed to help you achieve showcase your accomplishments!',
+    link: { href: 'http://adhocweb.tech', label: 'adhocweb.tech'  },
     logo: "/logos/target.png",
-    src: ""
+    src: "/videos/aceappraisals.mp4"
 
   },
   {
     name: 'Taskapp',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'Productivity app designed to boost your efficiency and help you achieve your goals!',
+    link: { href: 'http://adhocweb.tech', label: 'adhocweb.tech' },
     logo:"/logos/task.png",
-    src: ""
+    src: "/videos/taskapp.mp4"
 
   },
   {
     name: 'xPense',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'Easily track your expenses, categorize your spending, and set budgets to ensure that you stay on track with your finances.',
+    link: { href: 'http://adhocweb.tech', label: 'adhocweb.tech'  },
     logo:"/logos/expense.png",
-    src: ""
+    src: "/videos/expense.mp4"
 
   },
   {
     name: 'caterGo',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'http://adhocweb.tech', label: 'adhocweb.tech'  },
     logo:"/logos/catergo.png",
-    src: "https://flowbite-svelte.com/videos/flowbite.mp4"
+    src: "/videos/catergo.mp4"
 
   },
 ]
@@ -68,7 +68,7 @@ const popupModal = (src:string) => {
 
 <Modal bind:open size="xl" autoclose>
   <div class="text-center">
-    <Video  src={vidSrc} autoplay controls trackSrc='flowbite.mp4' />
+    <Video src={vidSrc} autoplay controls trackSrc='flowbite.mp4' />
   </div>
 </Modal>
 

@@ -11,7 +11,7 @@
       <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
           <h2 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Get in touch</h2>
-          <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>
+          <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">Whether you're looking to build a brand new website from scratch or improve an existing one, I'm here to help. I have a keen eye for design and a strong understanding of the latest web technologies, which allows me to create web experiences that are both beautiful and functional.</p>
           <dl class="mt-10 space-y-4 text-base leading-7 text-gray-300">
             <div class="flex gap-x-4">
               <dt class="flex-none">
