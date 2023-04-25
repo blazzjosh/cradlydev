@@ -8,7 +8,7 @@
   }
 </script>
 
-<img class="rounded-2xl" src="/src/routes/articles/covers/masterwebaccess.png">
+<img class="rounded-2xl" src="/covers/masterwebaccess.png">
 
 Hey there! Web accessibility is super important for creating websites that can be used by everyone, including people with disabilities. Here are some tips to help you master it:
 

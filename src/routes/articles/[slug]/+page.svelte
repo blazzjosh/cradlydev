@@ -4,8 +4,6 @@
 
   </script>
   
- 
-
   <div class='mt-16 lg:mt-32 sm:px-8'>
     <div class="mx-auto max-w-7xl lg:px-8">
         <div class='relative px-4 sm:px-8 lg:px-12'>
