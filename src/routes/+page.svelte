@@ -1,6 +1,6 @@
 <script>
   import Card from "$lib/components/Card.svelte"
-  import Icon from "$lib/components/Icon.svelte"
+  import { socials } from "$lib/utils/socials"
   import NewsLetterForm from "$lib/components/NewsLetterForm.svelte"
   import Photos from "$lib/components/Photos.svelte"
   import Resume from "$lib/components/Resume.svelte"
@@ -16,20 +16,16 @@
   <div class="max-w-2xl">
     <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Full-stack software engineer, and problem solver.</h1>
     <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">I'm Josh Horsfall, an efficient full-stack software engineer. With over 3 years of experience, I specialize in HTML5, CSS3, JavaScript, Node.JS, React, and databases. Let's collaborate to build something amazing!</p>
-    <div class="mt-6 flex gap-6">
-      <a class="" target="_blank" href="https://twitter.com/cradlydev">
-        <Icon name="twitter" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300" />
-      </a>
-      <a class="" target="_blank" href="https://www.instagram.com/josh__hh/">
-        <Icon name="instagram" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300" />
-      </a>
-      <a class="" target="_blank" href="https://github.com/blazzjosh">
-        <Icon name="github" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300" />
-      </a>
-      <a class="" target="_blank" href="https://www.linkedin.com/in/cradlyjosh/">
-        <Icon name="linkedin" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:hover:fill-zinc-300" />
-      </a>
-    </div>
+
+    <ul class="mt-6 flex gap-6">
+      {#each socials as { icon, href }}
+        <li class="flex">
+          <a target="_blank" {href} class="mt-4 group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
+            <svelte:component this={icon} />
+          </a>
+        </li>
+      {/each}
+    </ul>
   </div>
 </section>
 

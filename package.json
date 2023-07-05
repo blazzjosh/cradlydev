@@ -31,6 +31,7 @@
     "classnames": "^2.3.2",
     "flowbite": "^1.6.4",
     "flowbite-svelte": "^0.34.1",
+    "lucide-svelte": "^0.258.0",
     "svelte-fast-marquee": "^0.4.1"
   }
 }

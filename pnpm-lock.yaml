@@ -9,6 +9,7 @@ specifiers:
   classnames: ^2.3.2
   flowbite: ^1.6.4
   flowbite-svelte: ^0.34.1
+  lucide-svelte: ^0.258.0
   mdsvex: ^0.10.6
   postcss: ^8.4.14
   postcss-load-config: ^4.0.1
@@ -26,6 +27,7 @@ dependencies:
   classnames: 2.3.2
   flowbite: 1.6.4
   flowbite-svelte: 0.34.1_svelte@3.57.0
+  lucide-svelte: 0.258.0_svelte@3.57.0
   svelte-fast-marquee: 0.4.1
 
 devDependencies:
@@ -800,6 +802,14 @@ packages:
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /lucide-svelte/0.258.0_svelte@3.57.0:
+    resolution: {integrity: sha512-rb31yWJA86A0kvKLlBtDtCThXUETR+XQU6zMrrhF0NStmX3Pg0BCz5E7dwsE3Q59BhY4LvyrTOruwEo/G1BrZA==}
+    peerDependencies:
+      svelte: '>=3 <5'
+    dependencies:
+      svelte: 3.57.0
+    dev: false
 
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}

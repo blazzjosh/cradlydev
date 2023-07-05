@@ -1,5 +1,4 @@
 <script>
-    import Icon from '$lib/components/Icon.svelte'
     import { Button } from 'flowbite-svelte';
 </script>
 
